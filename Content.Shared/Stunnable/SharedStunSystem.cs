@@ -54,6 +54,7 @@ using Robust.Shared.Containers;
 using Content.Shared._White.Standing;
 using Content.Shared.Speech.EntitySystems;
 using Content.Shared.Jittering;
+using Content.Shared.Damage.Components;
 
 namespace Content.Shared.Stunnable;
 
@@ -310,6 +311,60 @@ public abstract class SharedStunSystem : EntitySystem
         }
 
         return false;
+    }
+
+    /// <summary>
+    /// Updates the movement speed modifiers of an entity by applying or removing the <see cref="SlowedDownComponent"/>.
+    /// If both walk and run modifiers are approximately 1 (i.e. normal speed) and <see cref="StaminaComponent.StaminaDamage"/> is 0,
+    /// or if the both modifiers are 0, the slowdown component is removed to restore normal movement.
+    /// Otherwise, the slowdown component is created or updated with the provided modifiers,
+    /// and the movement speed is refreshed accordingly.
+    /// </summary>
+    /// <param name="ent">Entity whose movement speed should be updated.</param>
+    /// <param name="walkSpeedModifier">New walk speed modifier. Default is 1f (normal speed).</param>
+    /// <param name="runSpeedModifier">New run (sprint) speed modifier. Default is 1f (normal speed).</param>
+    public void UpdateStunModifiers(Entity<StaminaComponent?> ent,
+        float walkSpeedModifier = 1f,
+        float runSpeedModifier = 1f)
+    {
+        if (!Resolve(ent, ref ent.Comp))
+            return;
+
+        if (
+            (MathHelper.CloseTo(walkSpeedModifier, 1f) && MathHelper.CloseTo(runSpeedModifier, 1f) && ent.Comp.StaminaDamage == 0f) ||
+            (walkSpeedModifier == 0f && runSpeedModifier == 0f)
+        )
+        {
+            RemComp<SlowedDownComponent>(ent);
+            return;
+        }
+
+        // Gooby nie powinni byli w tej funkcji dodawać jednostkom jakieś wizualne efekty, jest to shitcode
+        // TODO: Po wyczerpaniu kondycji dodać jakiś charakterystyczny efekt wizualny, np. duszność po bieganiu. Ale błagam, nie róbcie tego tutaj
+
+        EnsureComp<SlowedDownComponent>(ent, out var comp);
+
+        comp.WalkSpeedModifier = walkSpeedModifier;
+
+        comp.SprintSpeedModifier = runSpeedModifier;
+
+        _movementSpeedModifier.RefreshMovementSpeedModifiers(ent);
+
+        Dirty(ent);
+    }
+
+    /// <summary>
+    /// A convenience overload of <see cref="UpdateStunModifiers(EntityUid, float, float, StaminaComponent?)"/> that sets both
+    /// walk and run speed modifiers to the same value.
+    /// </summary>
+    /// <param name="ent">Entity whose movement speed should be updated.</param>
+    /// <param name="speedModifier">New walk and run speed modifier. Default is 1f (normal speed).</param>
+    /// <param name="component">
+    /// Optional <see cref="StaminaComponent"/> of the entity.
+    /// </param>
+    public void UpdateStunModifiers(Entity<StaminaComponent?> ent, float speedModifier = 1f)
+    {
+        UpdateStunModifiers(ent, speedModifier, speedModifier);
     }
 
     private void OnInteractHand(EntityUid uid, KnockedDownComponent knocked, InteractHandEvent args)

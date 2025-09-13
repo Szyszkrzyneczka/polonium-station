@@ -33,6 +33,7 @@
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2025 nikitosych <boriszyn@gmail.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -377,7 +378,8 @@ public sealed partial class StaminaSystem : EntitySystem
         }
     }
 
-    public void ToggleStaminaDrain(EntityUid target, float drainRate, bool enabled, bool modifiesSpeed, EntityUid? source = null)
+    // Goob edit - stamina drains
+    public void ToggleStaminaDrain(EntityUid target, float drainRate, bool enabled, bool modifiesSpeed, string key, EntityUid? source = null)
     {
         if (!TryComp<StaminaComponent>(target, out var stamina))
             return;
@@ -387,13 +389,26 @@ public sealed partial class StaminaSystem : EntitySystem
 
         if (enabled)
         {
-            stamina.ActiveDrains[actualSource] = (drainRate, modifiesSpeed);
+            stamina.ActiveDrains.TryAdd(key, (drainRate, modifiesSpeed, GetNetEntity(actualSource)));
             EnsureComp<ActiveStaminaComponent>(target);
         }
         else
-            stamina.ActiveDrains.Remove(actualSource);
+        {
+            stamina.ActiveDrains.Remove(key);
+        }
 
         Dirty(target, stamina);
+    }
+
+    public void ModifyStaminaDrain(EntityUid target, string key, float newValue, StaminaComponent? component = null)
+    {
+        if (!Resolve(target, ref component, false))
+            return;
+
+        if (component.ActiveDrains.ContainsKey(key))
+            component.ActiveDrains[key] = (newValue, component.ActiveDrains[key].Item2, component.ActiveDrains[key].Item3);
+
+        Dirty(target, component);
     }
 
     public override void Update(float frameTime)
@@ -407,20 +422,25 @@ public sealed partial class StaminaSystem : EntitySystem
         var curTime = _timing.CurTime;
         while (query.MoveNext(out var uid, out _))
         {
-            // Just in case we have active but not stamina we'll check and account for it.
+            // Goob Edit: Just in case we have active but not stamina we'll check and account for it.
             if (!stamQuery.TryGetComponent(uid, out var comp) ||
-                comp.StaminaDamage <= 0f && !comp.Critical && comp.ActiveDrains.Count == 0)
+                comp is { StaminaDamage: <= 0f, Critical: false, ActiveDrains.Count: 0 })
             {
                 RemComp<ActiveStaminaComponent>(uid);
                 continue;
             }
             if (comp.ActiveDrains.Count > 0)
-                foreach (var (source, (drainRate, modifiesSpeed)) in comp.ActiveDrains)
+            {
+                foreach (var (drainRate, _, source) in comp.ActiveDrains.Values)
+                {
                     TakeStaminaDamage(uid,
-                    drainRate * frameTime,
-                    comp,
-                    source: source,
-                    visual: false);
+                        drainRate * frameTime,
+                        comp,
+                        source: GetEntity(source),
+                        visual: false);
+                }
+            }
+
             // Shouldn't need to consider paused time as we're only iterating non-paused stamina components.
             var nextUpdate = comp.NextUpdate;
 
@@ -435,9 +455,14 @@ public sealed partial class StaminaSystem : EntitySystem
             }
 
             comp.NextUpdate += TimeSpan.FromSeconds(1f);
-            // If theres no active drains, recover stamina.
-            if (comp.ActiveDrains.Count == 0)
-                TakeStaminaDamage(uid, -comp.Decay, comp);
+            // Goob - If theres no active drains, recover stamina.
+            if (!comp.ActiveDrains.Values.Any(x => x.DrainRate > 0))
+            {
+                TakeStaminaDamage(
+                    uid,
+                    comp.AfterCritical ? -comp.Decay * comp.AfterCritDecayMultiplier : -comp.Decay, // Recover faster after crit
+                    comp);
+            }
 
             Dirty(uid, comp);
         }
@@ -458,14 +483,16 @@ public sealed partial class StaminaSystem : EntitySystem
 
         _stunSystem.TryParalyze(uid, component.StunTime, true);
 
-        component.NextUpdate = _timing.CurTime + component.StunTime * _modify.GetModifier(uid) + StamCritBufferTime;
-
         EnsureComp<ActiveStaminaComponent>(uid);
         Dirty(uid, component);
         _adminLogger.Add(LogType.Stamina, LogImpact.Medium, $"{ToPrettyString(uid):user} entered stamina crit");
     }
 
-    private void ExitStamCrit(EntityUid uid, StaminaComponent? component = null)
+    // goob edit - made it public.
+    // in any case it requires a stamina component that can be freely modified.
+    // so it doesn't really matter if it's public or private. besides, very convenient.
+    // regards
+    public void ExitStamCrit(EntityUid uid, StaminaComponent? component = null)
     {
         if (!Resolve(uid, ref component) ||
             !component.Critical)

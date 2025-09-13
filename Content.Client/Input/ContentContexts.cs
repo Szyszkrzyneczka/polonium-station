@@ -109,6 +109,7 @@ namespace Content.Client.Input
             human.AddFunction(EngineKeyFunctions.MoveLeft);
             human.AddFunction(EngineKeyFunctions.MoveRight);
             human.AddFunction(EngineKeyFunctions.Walk);
+            human.AddFunction(ContentKeyFunctions.Sprint);
             human.AddFunction(ContentKeyFunctions.SwapHands);
             human.AddFunction(ContentKeyFunctions.Drop);
             human.AddFunction(ContentKeyFunctions.UseItemInHand);
@@ -172,6 +173,7 @@ namespace Content.Client.Input
             aghost.AddFunction(EngineKeyFunctions.MoveLeft);
             aghost.AddFunction(EngineKeyFunctions.MoveRight);
             aghost.AddFunction(EngineKeyFunctions.Walk);
+            aghost.AddFunction(ContentKeyFunctions.Sprint); // Sprinting system by Polonium
             aghost.AddFunction(ContentKeyFunctions.SwapHands);
             aghost.AddFunction(ContentKeyFunctions.Drop);
             aghost.AddFunction(ContentKeyFunctions.UseItemInHand);
@@ -189,6 +191,7 @@ namespace Content.Client.Input
             ghost.AddFunction(EngineKeyFunctions.MoveLeft);
             ghost.AddFunction(EngineKeyFunctions.MoveRight);
             ghost.AddFunction(EngineKeyFunctions.Walk);
+            ghost.AddFunction(ContentKeyFunctions.Sprint); // Sprinting system by Polonium
 
             common.AddFunction(ContentKeyFunctions.OpenEntitySpawnWindow);
             common.AddFunction(ContentKeyFunctions.OpenSandboxWindow);
