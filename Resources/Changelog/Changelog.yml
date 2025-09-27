@@ -4024,3 +4024,15 @@ Entries:
   id: 8753
   time: '2025-09-27T07:39:25.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/75
+- author: Nikitosych
+  changes:
+  - message: "T\u0142umaczenie okienka magicznego lustra"
+    type: Add
+  - message: "T\u0142umaczenie okienka wizualnego badania stanu zdrowia postaci"
+    type: Add
+  - message: "Teraz w oknie przegl\u0105du postaci uwzgl\u0119dniana jest jej p\u0142\
+      e\u0107"
+    type: Tweak
+  id: 8754
+  time: '2025-09-27T10:00:45.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/76
