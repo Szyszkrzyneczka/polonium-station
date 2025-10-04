@@ -15,8 +15,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/engineering.rsi
-  - type: PaintableAirlock
-    department: Engineering
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -35,8 +33,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/cargo.rsi
-  - type: PaintableAirlock
-    department: Cargo
   - type: Wires
     layoutId: AirlockCargo
 
@@ -67,8 +63,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/medical.rsi
-  - type: PaintableAirlock
-    department: Medical
   - type: Wires
     layoutId: AirlockMedical
 
@@ -95,8 +89,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/science.rsi
-  - type: PaintableAirlock
-    department: Science
   - type: Wires
     layoutId: AirlockScience
 
@@ -119,8 +111,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Standard/security.rsi
-  - type: PaintableAirlock
-    department: Security
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -198,8 +188,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/engineering.rsi
-  - type: PaintableAirlock
-    department: Engineering
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -226,8 +214,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/cargo.rsi
-  - type: PaintableAirlock
-    department: Cargo
   - type: Wires
     layoutId: AirlockCargo
 
@@ -258,8 +244,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/medical.rsi
-  - type: PaintableAirlock
-    department: Medical
   - type: Wires
     layoutId: AirlockMedical
 
@@ -286,8 +270,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/science.rsi
-  - type: PaintableAirlock
-    department: Science
   - type: Wires
     layoutId: AirlockScience
 
@@ -298,8 +280,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/command.rsi
-  - type: PaintableAirlock
-    department: Command
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: Wires
@@ -312,8 +292,6 @@
   components:
   - type: Sprite
     sprite: _DV/Structures/Doors/Airlocks/Glass/security.rsi
-  - type: PaintableAirlock
-    department: Security
   - type: Wires
     layoutId: AirlockSecurity
 
