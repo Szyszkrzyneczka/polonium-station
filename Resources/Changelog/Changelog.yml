@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: ArtisticRoomba
-  changes:
-  - message: Air grenades have been added! These can fill up a spaced room of ~30
-      tiles with fresh air. They can be found in Atmospheric Technician's lockers.
-      Use them wisely!
-    type: Add
-  id: 8515
-  time: '2025-05-18T04:32:52.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37531
 - author: EmoGarbage404
   changes:
   - message: Various salvage equipment can now be unlocked through the job board and
@@ -3991,3 +3982,16 @@
   id: 9010
   time: '2025-10-09T21:58:32.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/83
+- author: Tofi_Dev
+  changes:
+  - message: "Dodano Oran\u017Cad\u0119, jest w wielu vendorach."
+    type: Add
+  - message: "Dodano Kabanosy, mo\u017Cna je zdoby\u0107 w Discount Dan's"
+    type: Add
+  - message: Dodano nowego pluszaka do gry do zmapowania
+    type: Add
+  - message: Pluszak bomba zostal dodany >:)
+    type: Add
+  id: 9011
+  time: '2025-10-10T13:44:57.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/81
