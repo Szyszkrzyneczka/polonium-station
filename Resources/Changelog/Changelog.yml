@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: EmoGarbage404
-  changes:
-  - message: Various salvage equipment can now be unlocked through the job board and
-      purchased through cargo.
-    type: Add
-  - message: Space debris and the mining asteroid no longer generate salvage equipment
-    type: Tweak
-  id: 8516
-  time: '2025-05-18T06:40:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37561
 - author: mrjajkes
   changes:
   - message: Add Blatantly Nuclear as a Nuke Song.
@@ -3995,3 +3985,11 @@
   id: 9011
   time: '2025-10-10T13:44:57.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/81
+- author: Nikitosych
+  changes:
+  - message: "Przet\u0142umaczono liczne wyrazy ze s\u0142ownika generowanych losowo\
+      \ s\u0142\xF3w, w tym imiona postaci, kody agent\xF3w itp"
+    type: Tweak
+  id: 9012
+  time: '2025-10-10T15:15:55.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/85
