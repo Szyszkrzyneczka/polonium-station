@@ -1,120 +1,4 @@
 ﻿Entries:
-- author: EmoGarbage404
-  changes:
-  - message: Fixed the mining asteroid not having a name.
-    type: Fix
-  id: 8500
-  time: '2025-05-17T01:27:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37513
-- author: EmoGarbage404
-  changes:
-  - message: You can now patch holes in the floors of the evac shuttle and ATS.
-    type: Fix
-  id: 8501
-  time: '2025-05-17T01:54:27.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36989
-- author: Lanedon
-  changes:
-  - message: Multiple head gear now hides the hair !
-    type: Fix
-  id: 8502
-  time: '2025-05-17T05:05:43.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36818
-- author: ArtisticRoomba
-  changes:
-  - message: Metal foam grenades have been added to station engineer lockers.
-    type: Add
-  - message: Metal foam grenades have been tweaked to cover more area over a longer
-      period of time.
-    type: Tweak
-  - message: Metal foam grenades now have a 5 second timer.
-    type: Tweak
-  - message: Aluminum foam walls now take one hit to destroy.
-    type: Tweak
-  id: 8503
-  time: '2025-05-17T05:21:24.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37476
-- author: EmoGarbage404
-  changes:
-  - message: Fixed tetherguns not having a beam when dragging.
-    type: Fix
-  id: 8504
-  time: '2025-05-17T05:22:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37510
-- author: aada
-  changes:
-  - message: Id cards now have the same max length as character names.
-    type: Fix
-  id: 8505
-  time: '2025-05-17T05:27:39.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35407
-- author: ArtisticRoomba
-  changes:
-  - message: Radiation collector power output has been buffed. Remember engineers,
-      the third level on the PA is safe for long term use!
-    type: Tweak
-  id: 8506
-  time: '2025-05-17T07:45:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37475
-- author: Ilya246
-  changes:
-  - message: Shuttles can now deal (weak) collision damage.
-    type: Add
-  id: 8507
-  time: '2025-05-17T17:11:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37422
-- author: VlaDOS1408
-  changes:
-  - message: Fax UI Menu has been reworked and now behaves better on resizing
-    type: Tweak
-  id: 8508
-  time: '2025-05-17T17:20:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33825
-- author: YotaXP
-  changes:
-  - message: Favorites selected in the construction menu will now persist between
-      rounds.
-    type: Tweak
-  id: 8509
-  time: '2025-05-17T17:37:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35867
-- author: perryprog
-  changes:
-  - message: You can now link cutter machines to material silos.
-    type: Tweak
-  id: 8510
-  time: '2025-05-18T01:51:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37554
-- author: Spangs04
-  changes:
-  - message: Resprited Telecomms
-    type: Tweak
-  id: 8511
-  time: '2025-05-18T02:10:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35811
-- author: EmoGarbage404
-  changes:
-  - message: Added the salvage job board! This board allows salvagers to access and
-      complete a variety of jobs in order to rank up, earn spesos, and unlock new
-      cargo orders. Work hard and you too may become a Supreme Salvager.
-    type: Add
-  id: 8512
-  time: '2025-05-18T04:02:52.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37549
-- author: EmoGarbage404
-  changes:
-  - message: Lathes can no longer connect to research servers on separate grids
-    type: Tweak
-  id: 8513
-  time: '2025-05-18T04:04:28.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36821
-- author: 0leshe
-  changes:
-  - message: Changed max and minimum amount of jigger transfer amount
-    type: Tweak
-  id: 8514
-  time: '2025-05-18T04:14:23.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35962
 - author: ArtisticRoomba
   changes:
   - message: Air grenades have been added! These can fill up a spaced room of ~30
@@ -1820,6 +1704,13 @@
   id: 8742
   time: '2025-09-11T10:58:46.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/61
+- author: EmoGarbage404
+  changes:
+  - message: Fixed people asphyxiating if left on a stasis bed.
+    type: Fix
+  id: 8742
+  time: '2025-07-06T00:59:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38762
 - author: elperson
   changes:
   - message: "Dodano system nowego \u017Cycia ze Starlight'a."
@@ -1827,6 +1718,14 @@
   id: 8743
   time: '2025-09-11T10:58:46.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/61
+- author: slarticodefast
+  changes:
+  - message: You can now catch basketballs, footballs and beach balls that are thrown
+      at you!
+    type: Add
+  id: 8743
+  time: '2025-07-06T16:54:20.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37702
 - author: Tofi_Dev and Koilak
   changes:
   - message: Dodano Pistolet VIS MPS
@@ -1838,6 +1737,13 @@
   id: 8744
   time: '2025-09-13T11:45:40.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/62
+- author: ArtisticRoomba
+  changes:
+  - message: The Go Go Hat now correctly retrieves and deposits items again.
+    type: Fix
+  id: 8744
+  time: '2025-07-06T23:42:14.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38810
 - author: Nikitosych
   changes:
   - message: "Naprawiono b\u0142\u0105d uniemo\u017Cliwiaj\u0105cy wpisywanie polskich\
@@ -1846,6 +1752,13 @@
   id: 8745
   time: '2025-09-13T19:10:53.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/66
+- author: maland1
+  changes:
+  - message: Reduced the size of the go go hat inventory
+    type: Tweak
+  id: 8745
+  time: '2025-07-06T23:50:11.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38808
 - author: Nikitosych
   changes:
   - message: "Dodano pasek kondycji. Wci\u015Bnij \"Shift\", \u017Ceby sprintowa\u0107\
@@ -1859,6 +1772,14 @@
   id: 8746
   time: '2025-09-14T15:15:14.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/69
+- author: AsnDen
+  changes:
+  - message: Golden PAI was added. It is extremely rare and expensive. This PAI can
+      be found in maint lockers
+    type: Add
+  id: 8746
+  time: '2025-07-07T05:07:52.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38549
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -1868,6 +1789,14 @@
   id: 8747
   time: '2025-09-14T15:16:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/67
+- author: Smugman
+  changes:
+  - message: Many new lighters can now be found in both Maints loot and the Syndicate
+      Uplink.
+    type: Add
+  id: 8747
+  time: '2025-07-07T18:53:17.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35514
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -1877,6 +1806,13 @@
   id: 8748
   time: '2025-09-14T15:16:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/67
+- author: Jopaglazik, Golub
+  changes:
+  - message: Added Jump Boots In T1 "Salvage Equipment" technology.
+    type: Add
+  id: 8748
+  time: '2025-07-07T19:19:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36862
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -1886,74 +1822,6 @@
   id: 8749
   time: '2025-09-14T15:16:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/67
-- author: Tofi
-  changes:
-  - message: Lekkie ulepszenia sprintu, w tym wizualnie i sound design.
-    type: Tweak
-  id: 8750
-  time: '2025-09-14T20:48:45.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/70
-- author: Tofi-Dev
-  changes:
-  - message: "Dodano nowe t\u0142umaczenie do gry"
-    type: Add
-  - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
-    type: Fix
-  id: 8751
-  time: '2025-09-21T23:49:06.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/71
-- author: EmoGarbage404
-  changes:
-  - message: Fixed people asphyxiating if left on a stasis bed.
-    type: Fix
-  id: 8742
-  time: '2025-07-06T00:59:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38762
-- author: slarticodefast
-  changes:
-  - message: You can now catch basketballs, footballs and beach balls that are thrown
-      at you!
-    type: Add
-  id: 8743
-  time: '2025-07-06T16:54:20.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37702
-- author: ArtisticRoomba
-  changes:
-  - message: The Go Go Hat now correctly retrieves and deposits items again.
-    type: Fix
-  id: 8744
-  time: '2025-07-06T23:42:14.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38810
-- author: maland1
-  changes:
-  - message: Reduced the size of the go go hat inventory
-    type: Tweak
-  id: 8745
-  time: '2025-07-06T23:50:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38808
-- author: AsnDen
-  changes:
-  - message: Golden PAI was added. It is extremely rare and expensive. This PAI can
-      be found in maint lockers
-    type: Add
-  id: 8746
-  time: '2025-07-07T05:07:52.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38549
-- author: Smugman
-  changes:
-  - message: Many new lighters can now be found in both Maints loot and the Syndicate
-      Uplink.
-    type: Add
-  id: 8747
-  time: '2025-07-07T18:53:17.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35514
-- author: Jopaglazik, Golub
-  changes:
-  - message: Added Jump Boots In T1 "Salvage Equipment" technology.
-    type: Add
-  id: 8748
-  time: '2025-07-07T19:19:28.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36862
 - author: slarticodefast, EmoGarbage404
   changes:
   - message: 'Added a new science gadget: The H.A.R.M.P.A.C.K., a backpack that gives
@@ -1963,6 +1831,13 @@
   id: 8749
   time: '2025-07-07T21:43:33.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38824
+- author: Tofi
+  changes:
+  - message: Lekkie ulepszenia sprintu, w tym wizualnie i sound design.
+    type: Tweak
+  id: 8750
+  time: '2025-09-14T20:48:45.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/70
 - author: kosticia
   changes:
   - message: Added new reagent for artifact researching - artifact glue! Use it on
@@ -1971,6 +1846,15 @@
   id: 8750
   time: '2025-07-08T01:45:46.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38670
+- author: Tofi-Dev
+  changes:
+  - message: "Dodano nowe t\u0142umaczenie do gry"
+    type: Add
+  - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
+    type: Fix
+  id: 8751
+  time: '2025-09-21T23:49:06.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/71
 - author: maland1
   changes:
   - message: Updated contraband tags on pulse weapons, temp gun, portable particle
@@ -1980,6 +1864,13 @@
   id: 8751
   time: '2025-07-08T11:55:55.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38698
+- author: Nikitosych
+  changes:
+  - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
+    type: Fix
+  id: 8751
+  time: '2025-09-21T23:49:06.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/71
 - author: TrixxedHeart
   changes:
   - message: Vox can now have heterochromia in the overlays category under markings.
@@ -1987,6 +1878,13 @@
   id: 8752
   time: '2025-07-08T23:22:13.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38595
+- author: pinkscreen
+  changes:
+  - message: "Nowe d\u017Awi\u0119ki!!!"
+    type: Add
+  id: 8752
+  time: '2025-09-26T21:55:51.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/74
 - author: Quantum-cross
   changes:
   - message: Fix lingering ghost entities after taking ghost roles.
@@ -1994,6 +1892,16 @@
   id: 8753
   time: '2025-07-09T11:07:41.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38788
+- author: Tofi-Dev
+  changes:
+  - message: "Dodano nowe s\u0142owa do polskiej santiacji czatu."
+    type: Add
+  - message: "Angielskie s\u0142owa z santiacji zosta\u0142y usuniet\u0119, by\u0142\
+      y konflikty pomi\u0119dzy dwoma."
+    type: Remove
+  id: 8753
+  time: '2025-09-27T07:39:25.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/75
 - author: Sparlight
   changes:
   - message: Dragons no longer destroy non-humanoid mobs upon eating them.
@@ -2001,6 +1909,18 @@
   id: 8754
   time: '2025-07-09T12:43:35.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38087
+- author: Nikitosych
+  changes:
+  - message: "T\u0142umaczenie okienka magicznego lustra"
+    type: Add
+  - message: "T\u0142umaczenie okienka wizualnego badania stanu zdrowia postaci"
+    type: Add
+  - message: "Teraz w oknie przegl\u0105du postaci uwzgl\u0119dniana jest jej p\u0142\
+      e\u0107"
+    type: Tweak
+  id: 8754
+  time: '2025-09-27T10:00:45.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/76
 - author: Crude Oil
   changes:
   - message: Parrots now parrot nearby speech, sometimes even using the radio if they
@@ -2012,6 +1932,17 @@
   id: 8755
   time: '2025-07-09T19:04:58.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/38243
+- author: Nikitosych
+  changes:
+  - message: Nowa stacja o nazwie Chibi
+    type: Add
+  - message: "Nowy spawner losowych zwierz\u0105t i nakry\u0107 g\u0142owy do mappingu"
+    type: Add
+  - message: "Dodano nie\u015Bmiercionosny Kramerer"
+    type: Add
+  id: 8755
+  time: '2025-09-29T23:43:34.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/78
 - author: slarticodefast
   changes:
   - message: Added VV buttons to the solution editor.
@@ -4046,48 +3977,17 @@
   url: https://github.com/space-wizards/space-station-14/pull/40303
 - author: Nikitosych
   changes:
-    - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
-      type: Fix
-  id: 8751
-  time: '2025-09-21T23:49:06.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/71
-- author: pinkscreen
-  changes:
-  - message: "Nowe d\u017Awi\u0119ki!!!"
+  - message: "Zsynchronizowano repozytorium z najnowszym upstreamem (22 wrz. 2025):\
+      \ wprowadzono liczne nowe funkcje, elementy map i now\u0105 zawarto\u015B\u0107"
     type: Add
-  id: 8752
-  time: '2025-09-26T21:55:51.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/74
-- author: Tofi-Dev
-  changes:
-  - message: "Dodano nowe s\u0142owa do polskiej santiacji czatu."
-    type: Add
-  - message: "Angielskie s\u0142owa z santiacji zosta\u0142y usuniet\u0119, by\u0142\
-      y konflikty pomi\u0119dzy dwoma."
+  - message: "Usuni\u0119to przestarza\u0142e lub zduplikowane zasoby i mechaniki\
+      \ zgodnie ze zmianami w upstreamie"
     type: Remove
-  id: 8753
-  time: '2025-09-27T07:39:25.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/75
-- author: Nikitosych
-  changes:
-  - message: "T\u0142umaczenie okienka magicznego lustra"
-    type: Add
-  - message: "T\u0142umaczenie okienka wizualnego badania stanu zdrowia postaci"
-    type: Add
-  - message: "Teraz w oknie przegl\u0105du postaci uwzgl\u0119dniana jest jej p\u0142\
-      e\u0107"
+  - message: "Ujednolicono balans, konfiguracje i interfejsy; wprowadzono wiele poprawek\
+      \ jako\u015Bci \u017Cycia"
     type: Tweak
-  id: 8754
-  time: '2025-09-27T10:00:45.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/76
-- author: Nikitosych
-  changes:
-  - message: Nowa stacja o nazwie Chibi
-    type: Add
-  - message: "Nowy spawner losowych zwierz\u0105t i nakry\u0107 g\u0142owy do mappingu"
-    type: Add
-  - message: "Dodano nie\u015Bmiercionosny Kramerer"
-    type: Add
-  id: 8755
-  time: '2025-09-29T23:43:34.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/78
+  - message: "Do\u0142\u0105czono liczne poprawki b\u0142\u0119d\xF3w z upstreamu"
+    type: Fix
+  id: 9010
+  time: '2025-10-09T21:58:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/83
