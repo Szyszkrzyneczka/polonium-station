@@ -4044,8 +4044,10 @@
   id: 9009
   time: '2025-09-27T07:21:30.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/40303
-  - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
-    type: Fix
+- author: Nikitosych
+  changes:
+    - message: "Przywr\xF3cono zamian\u0119 polskiego tekstu na d\u017Awi\u0119k emocji"
+      type: Fix
   id: 8751
   time: '2025-09-21T23:49:06.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/71
