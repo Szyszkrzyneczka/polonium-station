@@ -3943,6 +3943,13 @@ Entries:
   id: 8744
   time: '2025-09-13T11:45:40.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/62
+- author: ArtisticRoomba
+  changes:
+  - message: The Go Go Hat now correctly retrieves and deposits items again.
+    type: Fix
+  id: 8744
+  time: '2025-07-06T23:42:14.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38810
 - author: Nikitosych
   changes:
   - message: "Naprawiono b\u0142\u0105d uniemo\u017Cliwiaj\u0105cy wpisywanie polskich\
@@ -3951,6 +3958,13 @@ Entries:
   id: 8745
   time: '2025-09-13T19:10:53.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/66
+- author: maland1
+  changes:
+  - message: Reduced the size of the go go hat inventory
+    type: Tweak
+  id: 8745
+  time: '2025-07-06T23:50:11.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38808
 - author: Nikitosych
   changes:
   - message: "Dodano pasek kondycji. Wci\u015Bnij \"Shift\", \u017Ceby sprintowa\u0107\
@@ -3964,6 +3978,14 @@ Entries:
   id: 8746
   time: '2025-09-14T15:15:14.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/69
+- author: AsnDen
+  changes:
+  - message: Golden PAI was added. It is extremely rare and expensive. This PAI can
+      be found in maint lockers
+    type: Add
+  id: 8746
+  time: '2025-07-07T05:07:52.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38549
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -3973,6 +3995,14 @@ Entries:
   id: 8747
   time: '2025-09-14T15:16:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/67
+- author: Smugman
+  changes:
+  - message: Many new lighters can now be found in both Maints loot and the Syndicate
+      Uplink.
+    type: Add
+  id: 8747
+  time: '2025-07-07T18:53:17.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35514
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -3982,6 +4012,13 @@ Entries:
   id: 8748
   time: '2025-09-14T15:16:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/67
+- author: Jopaglazik, Golub
+  changes:
+  - message: Added Jump Boots In T1 "Salvage Equipment" technology.
+    type: Add
+  id: 8748
+  time: '2025-07-07T19:19:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36862
 - author: Tofi
   changes:
   - message: 'Spolszczenie Tritu: Tritium -> Trit'
@@ -4011,39 +4048,14 @@ Entries:
   changes:
   - message: "Nowe d\u017Awi\u0119ki!!!"
     type: Add
-  id: 8752
-  time: '2025-09-26T21:55:51.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/74
-- author: Tofi-Dev
-  changes:
-  - message: "Dodano nowe s\u0142owa do polskiej santiacji czatu."
-    type: Add
-  - message: "Angielskie s\u0142owa z santiacji zosta\u0142y usuniet\u0119, by\u0142\
-      y konflikty pomi\u0119dzy dwoma."
+  - message: "Usuni\u0119to przestarza\u0142e lub zduplikowane zasoby i mechaniki\
+      \ zgodnie ze zmianami w upstreamie"
     type: Remove
-  id: 8753
-  time: '2025-09-27T07:39:25.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/75
-- author: Nikitosych
-  changes:
-  - message: "T\u0142umaczenie okienka magicznego lustra"
-    type: Add
-  - message: "T\u0142umaczenie okienka wizualnego badania stanu zdrowia postaci"
-    type: Add
-  - message: "Teraz w oknie przegl\u0105du postaci uwzgl\u0119dniana jest jej p\u0142\
-      e\u0107"
+  - message: "Ujednolicono balans, konfiguracje i interfejsy; wprowadzono wiele poprawek\
+      \ jako\u015Bci \u017Cycia"
     type: Tweak
-  id: 8754
-  time: '2025-09-27T10:00:45.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/76
-- author: Nikitosych
-  changes:
-  - message: Nowa stacja o nazwie Chibi
-    type: Add
-  - message: "Nowy spawner losowych zwierz\u0105t i nakry\u0107 g\u0142owy do mappingu"
-    type: Add
-  - message: "Dodano nie\u015Bmiercionosny Kramerer"
-    type: Add
-  id: 8755
-  time: '2025-09-29T23:43:34.0000000+00:00'
-  url: https://github.com/polonium14/polonium-station/pull/78
+  - message: "Do\u0142\u0105czono liczne poprawki b\u0142\u0119d\xF3w z upstreamu"
+    type: Fix
+  id: 9010
+  time: '2025-10-09T21:58:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/83
