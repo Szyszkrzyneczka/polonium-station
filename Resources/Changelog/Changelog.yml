@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: ScarKy0
-  changes:
-  - message: Aloxadone has been tweaked. The recipe has been altered to be simplier
-      to make and the healing values have been increased.
-    type: Tweak
-  id: 8523
-  time: '2025-05-18T09:16:14.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37239
 - author: Simyon
   changes:
   - message: The Syndicate and Wizard Communications Console now no longer show who
@@ -3993,3 +3985,11 @@
   id: 9015
   time: '2025-10-11T07:52:35.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/88
+- author: Tofi-Dev
+  changes:
+  - message: "Poprawia liter\xF3wk\u0119 z sci\u0105gniecia g\xF3rnej cz\u0119sci\
+      \ jumpsuita"
+    type: Fix
+  id: 9016
+  time: '2025-10-20T05:49:09.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/90
