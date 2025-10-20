@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Simyon
-  changes:
-  - message: The Syndicate and Wizard Communications Console now no longer show who
-      the message was sent by.
-    type: Tweak
-  id: 8524
-  time: '2025-05-18T09:18:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37567
 - author: SuperGDPWYL
   changes:
   - message: A Lone Operative detonating the nuke on-station will now end the round.
@@ -3993,3 +3985,11 @@
   id: 9016
   time: '2025-10-20T05:49:09.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/90
+- author: Tofi-Dev
+  changes:
+  - message: "Przet\u0142umaczono stan na ziemi, stan poza zasi\u0119giem w analizatorze\
+      \ zdrowia, i elementy wizualne papierologii ( Cargo, Nanotask, etc. )"
+    type: Add
+  id: 9017
+  time: '2025-10-20T05:53:41.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/91
