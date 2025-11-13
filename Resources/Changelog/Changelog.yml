@@ -4129,3 +4129,12 @@ Entries:
   id: 9018
   time: '2025-11-13T00:57:03.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/94
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie okienka SMES\xF3w, podstacji i generator\xF3w"
+    type: Add
+  - message: "t\u0142umaczenie dodatkowych informacji przy bateriach, \u0142adowarkach"
+    type: Add
+  id: 9019
+  time: '2025-11-13T01:10:21.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/96
