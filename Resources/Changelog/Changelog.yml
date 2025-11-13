@@ -1,28 +1,4 @@
 ﻿Entries:
-- author: Samuka
-  changes:
-  - message: Holy water now evaporates.
-    type: Fix
-  id: 8530
-  time: '2025-05-19T16:14:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37611
-- author: aada
-  changes:
-  - message: Pepper makes you cough.
-    type: Add
-  id: 8531
-  time: '2025-05-19T18:23:38.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/36358
-- author: Entvari
-  changes:
-  - message: Hyper Capacity Powercells are now available as Tier 3 Industrial Research.
-    type: Add
-  - message: The Tier 3 Industrial Research 'Portable Fission' has been renamed to
-      Optimized Microgalvanism to better reflect this.
-    type: Tweak
-  id: 8532
-  time: '2025-05-19T22:35:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37619
 - author: RedBookcase
   changes:
   - message: The Salvage section of the guidebook has been updated.
@@ -3995,3 +3971,34 @@
   id: 9022
   time: '2025-11-13T01:36:15.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/104
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie technologii"
+    type: Add
+  - message: "t\u0142umaczenie konsoli w dziale prac rozwojowych"
+    type: Add
+  id: 9023
+  time: '2025-11-13T16:38:49.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/105
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie akcji ci\u0105gni\u0119cia"
+    type: Add
+  - message: "t\u0142umaczenie komunikatu o chorobie popromiennej"
+    type: Add
+  - message: "t\u0142umaczenie niekt\xF3rych okienek"
+    type: Add
+  id: 9024
+  time: '2025-11-13T16:39:03.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/103
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie kategorii w konsoli zamawiania"
+    type: Add
+  - message: "t\u0142umaczenie nazw antagonist\xF3w"
+    type: Add
+  - message: "t\u0142umaczenie poziom\xF3w dost\u0119pu"
+    type: Add
+  id: 9025
+  time: '2025-11-13T16:37:31.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/101
