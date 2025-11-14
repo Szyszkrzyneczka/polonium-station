@@ -43,138 +43,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 Entries:
-- author: Errant
-  changes:
-  - message: Signal timers now have a maximum countdown duration, which can be specified
-      in yaml. The default maximum is one hour, to prevent the displayed time from
-      overflowing into hh:mm .
-    type: Tweak
-  id: 7690
-  time: '2024-12-09T03:41:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33781
-- author: Plykiya
-  changes:
-  - message: You are now notified of who is pulling you when being pulled.
-    type: Add
-  id: 7691
-  time: '2024-12-09T03:51:53.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33612
-- author: Bhijn and Myr
-  changes:
-  - message: The Admin Message system now contains an introductory message as the
-      very first message shown to a user, before any messages are written or received.
-      This message serves primarily to remind ahelping players (whom are likely to
-      be experiencing strong emotion) to remember that admins are humans, too.
-    type: Add
-  id: 7692
-  time: '2024-12-09T08:54:23.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33348
-- author: ScarKy0
-  changes:
-  - message: You can now pet the AI Core.
-    type: Add
-  id: 7693
-  time: '2024-12-09T16:10:13.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33788
-- author: joshepvodka
-  changes:
-  - message: Added flavor profiles to beverages that missed them.
-    type: Add
-  - message: Tweaked some drink flavor profiles.
-    type: Tweak
-  - message: Soda/Booze dispenser will now always eject the shaker/glass before any
-      bottle or jug.
-    type: Tweak
-  id: 7694
-  time: '2024-12-09T17:12:57.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33505
-- author: ArtisticRoomba
-  changes:
-  - message: SMES now gives visual feedback for if the maintenance panel is open.
-    type: Fix
-  id: 7695
-  time: '2024-12-10T10:00:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33808
-- author: metalgearsloth
-  changes:
-  - message: Fix blank newlines on examine tooltips (e.g. tables).
-    type: Fix
-  id: 7696
-  time: '2024-12-10T13:45:20.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33813
-- author: slarticodefast
-  changes:
-  - message: Fixed the greytide virus event affecting non-station maps.
-    type: Fix
-  id: 7697
-  time: '2024-12-11T14:30:29.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33806
-- author: metalgearsloth
-  changes:
-  - message: Fix battery self-recharging items like the antique laser gun from mispredicting.
-    type: Fix
-  id: 7698
-  time: '2024-12-11T15:58:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33384
-- author: BramvanZijp
-  changes:
-  - message: The Head of Security's Energy Shotgun has regained its ability to self
-      recharge, but only if the weapon has not been discharged in the last 10 seconds.
-    type: Add
-  - message: The Head of Security's Energy Shotgun now has a varying amount of shots
-      depending on the firing mode.
-    type: Tweak
-  - message: Energy based weapons with differing energy consumption depending on the
-      fire-mode will now update the ammo counter on the HUD when switching between
-      fire-modes.
-    type: Fix
-  id: 7699
-  time: '2024-12-11T16:21:04.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32104
-- author: Winkarst-cpu
-  changes:
-  - message: The A.P.E. guidebook entry now contains information about Sigma particles
-      and transformation effects.
-    type: Tweak
-  id: 7700
-  time: '2024-12-12T14:24:35.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33558
-- author: lzk228
-  changes:
-  - message: Disabled evac after declaring nuke war is increased from 15 to 25 minutes.
-    type: Tweak
-  id: 7701
-  time: '2024-12-13T03:10:21.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33628
-- author: LevitatingTree
-  changes:
-  - message: Lizards can now eat the Five Alarm Burger!
-    type: Fix
-  id: 7702
-  time: '2024-12-13T13:53:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33848
-- author: Southbridge
-  changes:
-  - message: Paper documents now support the [mono] tag.
-    type: Add
-  id: 7703
-  time: '2024-12-13T14:24:35.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33830
-- author: yuitop
-  changes:
-  - message: Anchoring now has higher priority over stashing.
-    type: Tweak
-  id: 7704
-  time: '2024-12-13T23:00:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31779
-- author: Nimfar11
-  changes:
-  - message: Changes the colour of the Borg binary channel to a different shade of
-      blue.
-    type: Tweak
-  id: 7705
-  time: '2024-12-14T16:03:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33841
 - author: Litraxx
   changes:
   - message: Renamed the Dungeon Master lawset to Game Master lawset
@@ -4192,3 +4060,10 @@ Entries:
   id: 9025
   time: '2025-11-13T16:37:31.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/101
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie nazw ro\u015Blin w informacji o nasionach"
+    type: Add
+  id: 9026
+  time: '2025-11-14T14:31:55.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/106
