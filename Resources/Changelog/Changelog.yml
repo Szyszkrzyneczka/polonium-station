@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: RedBookcase
-  changes:
-  - message: The Salvage section of the guidebook has been updated.
-    type: Fix
-  id: 8533
-  time: '2025-05-19T22:39:23.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/37593
 - author: SpeltIncorrectyl
   changes:
   - message: Kammerer now has a tighter spread to compensate for its lower rate of
@@ -4002,3 +3995,10 @@
   id: 9025
   time: '2025-11-13T16:37:31.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/101
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie nazw ro\u015Blin w informacji o nasionach"
+    type: Add
+  id: 9026
+  time: '2025-11-14T14:31:55.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/106
