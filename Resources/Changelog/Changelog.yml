@@ -43,20 +43,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 Entries:
-- author: Litraxx
-  changes:
-  - message: Renamed the Dungeon Master lawset to Game Master lawset
-    type: Fix
-  id: 7706
-  time: '2024-12-16T11:52:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33678
-- author: psykana
-  changes:
-  - message: Zombies can now see initial infected
-    type: Add
-  id: 7707
-  time: '2024-12-16T11:53:13.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33665
 - author: Plykiya
   changes:
   - message: Bombs like stingers and clustergrenades now trigger when destroyed due
@@ -4067,3 +4053,23 @@ Entries:
   id: 9026
   time: '2025-11-14T14:31:55.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/106
+- author: Lukasz825700516
+  changes:
+  - message: "tlumaczenie powiadomie\u0144 o wahad\u0142owcu"
+    type: Fix
+  - message: "dostosowano nazw\u0119 wahad\u0142owca do og\u0142osze\u0144 g\u0142\
+      osowych"
+    type: Fix
+  id: 9027
+  time: '2025-11-15T00:03:51.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/109
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie napis\xF3w w konsoli wahad\u0142owc\xF3w i powiadomie\u0144\
+      \ o wahad\u0142owcu"
+    type: Add
+  - message: "t\u0142umaczenie d\u017Awi\u0119ku grzechocz\u0105cych zas\u0142on"
+    type: Add
+  id: 9028
+  time: '2025-11-14T17:31:33.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/107
