@@ -1,49 +1,4 @@
 ﻿Entries:
-- author: RatIRL
-  changes:
-  - message: Added All-Hostile ballistic turret.
-    type: Add
-  id: 7739
-  time: '2024-12-20T20:34:53.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33970
-- author: Beck Thompson
-  changes:
-  - message: Defibrillator cooldowns are now clearly visible.
-    type: Tweak
-  id: 7740
-  time: '2024-12-20T21:26:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31251
-- author: J C Denton
-  changes:
-  - message: Syndicate and NanoTrasen NPCs and turrets are now hostile to Dragons
-      and Carps
-    type: Tweak
-  id: 7741
-  time: '2024-12-20T21:38:27.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32515
-- author: lzk228
-  changes:
-  - message: Item's tool function now shows on examine.
-    type: Add
-  id: 7742
-  time: '2024-12-20T22:15:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32436
-- author: Pinkbat5
-  changes:
-  - message: Diona can now chirp.
-    type: Add
-  - message: Nymphs can scream and laugh like adult diona.
-    type: Add
-  id: 7743
-  time: '2024-12-20T22:34:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32511
-- author: ScarKy0
-  changes:
-  - message: Syndicate uplinks now have 6 discounts instead of 3.
-    type: Tweak
-  id: 7744
-  time: '2024-12-21T02:14:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33950
 - author: JustinWinningham
   changes:
   - message: Wood walls no longer require girders and are built from barricades instead.
@@ -3924,3 +3879,45 @@
   id: 9046
   time: '2025-11-21T15:56:10.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/124
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie przycisku szczeg\xF3\u0142owej informacji"
+    type: Add
+  id: 9047
+  time: '2025-11-21T16:01:21.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/132
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie zatrzymywania krwawienia"
+    type: Fix
+  id: 9048
+  time: '2025-11-21T16:03:50.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/302
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie klona i paradoksu czasoprzestrzennego"
+    type: Add
+  id: 9049
+  time: '2025-11-21T16:02:04.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/300
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie mi\u0119snych potwor\xF3w"
+    type: Add
+  id: 9050
+  time: '2025-11-21T16:04:29.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/303
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie cz\u0119\u015Bci cia\u0142a reptilian"
+    type: Add
+  id: 9051
+  time: '2025-11-21T16:05:43.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/304
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie kabli"
+    type: Add
+  id: 9052
+  time: '2025-11-21T16:03:11.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/301
