@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: chromiumboy
-  changes:
-  - message: Chat messages from holopads during emergency broadcasts will no longer
-      be logged in the chat window to prevent message spam. This is a temporary change
-      until a proper fix can be made to the chat system
-    type: Tweak
-  id: 7764
-  time: '2024-12-31T10:52:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34114
 - author: PopGamer46
   changes:
   - message: Fixed borgs not being able to check their laws in crit
@@ -3936,3 +3927,10 @@
   id: 9071
   time: '2025-12-08T01:49:05.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/128
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie akcji obserwator\xF3w i ich samych"
+    type: Add
+  id: 9072
+  time: '2025-12-08T13:08:48.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/323
