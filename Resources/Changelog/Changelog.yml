@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Booblesnoot42
-  changes:
-  - message: The RCD no longer has a cooldown when opened or closed.
-    type: Fix
-  id: 7770
-  time: '2025-01-01T16:19:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34149
 - author: lzk228
   changes:
   - message: Decreased HP for rusted wall variants
@@ -3940,3 +3933,12 @@
   id: 9077
   time: '2025-12-08T22:27:53.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/341
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono wszystkie drzwi, \u015Bluzy, \u015Bciany i ogrodzenia"
+    type: Add
+  - message: "Drobne zmiany w istniej\u0105cych t\u0142umaczeniach"
+    type: Fix
+  id: 9078
+  time: '2025-12-12T00:36:34.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/339
