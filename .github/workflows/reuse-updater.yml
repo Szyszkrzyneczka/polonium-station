@@ -16,6 +16,11 @@ on:
       - reopened
       - ready_for_review
 
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
 jobs:
   update_headers:
     runs-on: ubuntu-latest
