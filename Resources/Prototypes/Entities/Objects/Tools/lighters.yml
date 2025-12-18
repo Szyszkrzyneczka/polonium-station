@@ -310,7 +310,7 @@
         maxVol: 11
 
 
-# Funky Changes, the BaseBrandedLighter was removed and all the branded flippos were instead parented off the regular flipo lighter
+# Funky Changes, the BaseBrandedLighter was removed and all the branded flippos were instead parented off the regular flipo lighter 
 #- type: entity
 #  abstract: true
 #  parent: BaseItem
@@ -408,14 +408,14 @@
       visible: false
       shader: unshaded
   - type: Item
-    sprite: Objects/Tools/Lighters/syndielighter.rsi
+    sprite: Objects/Tools/Lighters/syndielighter.rsi  
     inhandVisuals:
       left:
       - state: inhand-left
       right:
       - state: inhand-right
   - type: ToggleableLightVisuals
-    sprite: Objects/Tools/Lighters/syndielighter.rsi
+    sprite: Objects/Tools/Lighters/syndielighter.rsi    
     spriteLayer: lighter_flame
     inhandVisuals:
       left:
@@ -423,7 +423,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded    
   - type: Welder
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -471,7 +471,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded          
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -519,7 +519,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded           
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -571,7 +571,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded         
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -630,7 +630,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded           
   - type: ItemToggleRequiresLock
     requireLocked: false
   - type: Welder #
@@ -687,7 +687,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded           
   - type: Welder #
     fuelConsumption: 0
     fuelLitCost: 0
@@ -735,7 +735,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded         
   - type: ComponentToggler
     components:
     - type: Slippery
@@ -809,7 +809,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded         
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.05
@@ -857,7 +857,7 @@
         shader: unshaded
       right:
       - state: inhand-right-lit
-        shader: unshaded
+        shader: unshaded        
   - type: Welder #
     fuelConsumption: 0.02
     fuelLitCost: 0.1

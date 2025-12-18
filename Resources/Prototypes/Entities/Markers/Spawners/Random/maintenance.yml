@@ -357,9 +357,7 @@
       - id: ClothingMaskBreath
       - id: DoorElectronics
       - id: APCElectronics
-      - id: InflatableWallStack #funky
-      - id: InflatableDoorStack1 #funky
-      - id: InflatableFloorStack #funky
+      - id: InflatableWallStack5
       - id: CableHVStack10
       - id: CableMVStack10
       - id: CableApcStack10

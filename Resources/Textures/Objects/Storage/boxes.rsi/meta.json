@@ -101,6 +101,9 @@
             "name": "implant"
         },
         {
+            "name": "inflatable"
+        },
+        {
             "name": "latex"
         },
         {
@@ -226,12 +229,6 @@
         },
 		{
             "name": "agrichemkit"
-        },
-		{
-            "name": "inflatablefloor"
-        },
-		{
-            "name": "inflatablewall"
         }
     ]
 }

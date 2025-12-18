@@ -1010,13 +1010,6 @@
   - LizardPlushieQuartermaster
   - CommandLighter # Funky Change
 
-- type: loadoutGroup #WizDen Weh Job Plush
-  id: QuartermasterJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - LizardPlushieQuartermaster
-
 - type: loadoutGroup
   id: CargoTechnicianHead
   name: loadout-group-cargo-technician-head
@@ -2077,13 +2070,6 @@
   - WhiteShoes
   - MedicalWinterBoots
   - LaceupShoes
-
-- type: loadoutGroup #WizDen Weh Job Plush
-  id: ParamedicJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - LizardPlushieParamedic
 
 - type: loadoutGroup #WizDen Weh Job Plush
   id: ParamedicJobTrinkets

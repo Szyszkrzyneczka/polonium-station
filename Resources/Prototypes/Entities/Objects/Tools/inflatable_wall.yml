@@ -73,7 +73,7 @@
 
 # partial stacks
 
-- type: entity #
+- type: entity # 
   parent: InflatableWallStack
   id: InflatableWallStack5
   suffix: Redundant, do not map
