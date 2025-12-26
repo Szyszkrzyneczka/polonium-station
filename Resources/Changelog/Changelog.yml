@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Alpaccalypse
-  changes:
-  - message: Special reagents are now listed in the relevant section of the guidebook.
-    type: Add
-  id: 7786
-  time: '2025-01-07T17:45:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34265
 - author: Tayrtahn
   changes:
   - message: Sentient goats now have a bleating effect when speaking.
@@ -3964,3 +3957,10 @@
   id: 9093
   time: '2025-12-26T01:41:40.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/368
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie szklanek"
+    type: Add
+  id: 9094
+  time: '2025-12-26T02:46:09.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/367
