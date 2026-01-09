@@ -1,33 +1,4 @@
 ﻿Entries:
-- author: Errant
-  changes:
-  - message: Battery-powered weapons will no longer occasionally refuse to recharge
-      the last missing shot.
-    type: Fix
-  id: 7791
-  time: '2025-01-10T06:54:55.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34028
-- author: Southbridge
-  changes:
-  - message: Air Alarms can now copy sensor thresholds to all attached sensors.
-    type: Add
-  id: 7792
-  time: '2025-01-10T06:55:05.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34346
-- author: Coolsurf6
-  changes:
-  - message: Made Forensic Gloves security contraband.
-    type: Tweak
-  id: 7793
-  time: '2025-01-10T15:01:00.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34193
-- author: TeenSarlacc
-  changes:
-  - message: Large instruments can now be ordered through cargo.
-    type: Add
-  id: 7794
-  time: '2025-01-10T15:13:23.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34240
 - author: themias
   changes:
   - message: Fixed crayons losing durability attempting to write on stamped paper
@@ -3961,3 +3932,93 @@
   id: 9098
   time: '2026-01-05T06:08:42.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/369
+- author: Zintex
+  changes:
+  - message: "Gracze kt\xF3rzy do\u0142\u0105czyli jako obserwatorzy nie mog\u0105\
+      \ ju\u017C korzysta\u0107 z systemu nowego \u017Cycia."
+    type: Tweak
+  id: 9099
+  time: '2026-01-09T05:18:56.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/372
+- author: Zintex
+  changes:
+  - message: "Zmieniono wymaganie do odblokowania r\xF3l z czasu w departamencie cywilnym\
+      \ do czasu og\xF3lnego."
+    type: Tweak
+  - message: Odblokowanie Magistratu wymaga teraz 10h w Sec.
+    type: Tweak
+  - message: Zmniejszone wymagania czasu gry dla IAA
+    type: Tweak
+  id: 9100
+  time: '2026-01-09T05:21:43.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/374
+- author: Nikita_pl
+  changes:
+  - message: "Ogie\u0144 mo\u017Ce teraz powodowa\u0107 uszkodzenia strukturalne stacji."
+    type: Add
+  - message: "Zbalansowano palno\u015B\u0107 reagent\xF3w oraz ulepszono d\u017Awi\u0119\
+      ki i o\u015Bwietlenie ognia."
+    type: Tweak
+  - message: "\u015Aluzy ogniowe (firelocki) skuteczniej blokuj\u0105 rozprzestrzenianie\
+      \ si\u0119 ognia."
+    type: Tweak
+  - message: "Atmos Resin produkuje teraz par\u0119 wodn\u0105 zamiast mieszanki powietrza."
+    type: Tweak
+  - message: Dodano nowe efekty wizualne dla Solar Flare i Ion Storm.
+    type: Add
+  - message: "Zaimplementowano stan \u201ESoft Critical\u201D."
+    type: Add
+  - message: "Dodano w\xF3zek reanimacyjny (crashcart) oraz nowe \u0142\xF3\u017C\
+      ka medyczne."
+    type: Add
+  - message: "Nikotyna mo\u017Ce teraz powodowa\u0107 raka."
+    type: Tweak
+  - message: Dodano granaty z metalowej piany.
+    type: Add
+  - message: "Zmieniono dzia\u0142anie r\u0119kawic izolacyjnych (Zappy Insuls)."
+    type: Tweak
+  - message: Dodano efekt iskier podczas spawania.
+    type: Add
+  - message: "Podstawowe i tanie zapalniczki s\u0105 teraz gorszej jako\u015Bci."
+    type: Tweak
+  - message: "Usuni\u0119to r\u0119kawice z\u0142odzieja z oferty syndykatu."
+    type: Remove
+  - message: "Usuni\u0119to rol\u0119 Technika Atmosferycznego."
+    type: Remove
+  - message: "Rasa IPC nie jest ju\u017C dost\u0119pna."
+    type: Remove
+  - message: "Dodano kosmetyczne tytu\u0142y zawodowe."
+    type: Add
+  - message: "Posta\u0107 nie spada ju\u017C z krzes\u0142a lub \u0142\xF3\u017Cka\
+      \ po za\u015Bni\u0119ciu."
+    type: Fix
+  - message: "Zaktualizowano map\u0119 Bagel (wersja zimowa, odzimowanie i poprawki)."
+    type: Tweak
+  - message: "Zaktualizowano map\u0119 Fland (nowy prom ewakuacyjny, zmiany w medbayu\
+      \ i o\u015Bwietleniu)."
+    type: Tweak
+  - message: "Zaktualizowano map\u0119 Tenth Court."
+    type: Tweak
+  - message: "Przywr\xF3cono map\u0119 Packed do puli rotacji."
+    type: Add
+  - message: "Zwi\u0119kszono jako\u015B\u0107 \u0142up\xF3w w ruinach Salvage."
+    type: Tweak
+  - message: "P\u0119kaj\u0105ce okna maj\u0105 wi\u0119cej klatek animacji zniszczenia."
+    type: Tweak
+  - message: "Przeprowadzono du\u017Cy rebalans jedzenia."
+    type: Tweak
+  - message: "Zmieniono balans heretyk\xF3w (ostrza, Blazing Dash, flesh surgery)."
+    type: Tweak
+  - message: "Dodano \u015Bwi\u0105teczne elementy dekoracyjne i zawarto\u015B\u0107\
+      \ sezonow\u0105."
+    type: Add
+  id: 9101
+  time: '2026-01-07T04:55:28.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/373
+- author: Zintex
+  changes:
+  - message: "Plushak Itan-Kio dodany do bibelot\xF3w w wyposa\u017Ceniu postaci"
+    type: Add
+  id: 9102
+  time: '2026-01-09T05:22:26.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/375
