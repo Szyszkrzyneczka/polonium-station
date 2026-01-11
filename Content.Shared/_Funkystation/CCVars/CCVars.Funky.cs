@@ -29,10 +29,10 @@ public sealed class CCVars_Funky
 
     /// <summary>
     /// If the LOOC message budget system should be enabled.
-    /// Defaults to true.
+    /// Defaults to false (Polonium edit, originally true).
     /// </summary>
     public static readonly CVarDef<bool> LoocBudgetEnabled =
-        CVarDef.Create("funky.looc_budget_enabled", true, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("funky.looc_budget_enabled", false, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// How many LOOC messages each player can send per round.
