@@ -26,6 +26,8 @@
         maxVol: 50
         reagents:
         - ReagentId: Nutriment
-          Quantity: 35
+          Quantity: 25
+        - ReagentId: Sugar
+          Quantity: 10
         - ReagentId: Vitamin
           Quantity: 5
