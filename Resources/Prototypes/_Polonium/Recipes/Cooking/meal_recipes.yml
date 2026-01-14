@@ -1,0 +1,11 @@
+- type: microwaveMealRecipe
+  id: RecipeKremowka
+  name: przepis na kremówkę
+  result: FoodPieKremowka
+  time: 15
+  group: Pie
+  reagents:
+    Cream: 5
+    Sugar: 5
+  solids:
+    FoodDoughPie: 1

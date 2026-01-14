@@ -1,0 +1,26 @@
+- type: entity
+  name: kremowka
+  parent: FoodPieBase
+  id: FoodPieKremowka
+  description: Wadowicki specjał
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - cream
+  - type: Sprite
+    sprite: _Polonium/Objects/Cosumable/Food/Baked/pie.rsi
+    layers:
+    - state: kremowka
+  - type: Tag
+    tags:
+    - Pie
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 50
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 35
+        - ReagentId: Vitamin
+          Quantity: 5
